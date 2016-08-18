@@ -1,0 +1,44 @@
+/* RESET */
+
+body, li, figure, h1, html,ul {
+  padding:0;
+  margin: 0;
+  border: 0;
+
+  background: transparent;
+  box-sizing: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+#game {
+  width: 600px;
+  margin: 0 auto;
+  background: none;
+  border: 10px solid black;
+}
+
+.row {
+  width: 600px;
+  box-sizing: border-box;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  outline: 1px solid black;
+  background-color: yellow;
+  padding: 10px;
+  display: block;
+  float: left;
+  font-size: 50px;
+}
